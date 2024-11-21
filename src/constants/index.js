@@ -4,6 +4,7 @@ import {
     creator,
     web,
     javascript,
+    translate,
     typescript,
     html,
     css,
@@ -262,6 +263,27 @@ import {
       image: unsplash,
       source_code_link: "https://www.unsplash-collection-project.com/",
     },
+    {
+    name: "Translate App",
+    description:
+      "A service for users to store translate from thei chosen text into any language. Users can also listen to how the translated text sounds like and copy it into their clipboard",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "translate",
+        color: "green-text-gradient",
+      },
+      {
+        name: "zustand",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: translate,
+    source_code_link: "https://andydrums87.github.io/translate-app/",
+  }
   ];
   
   export { services, technologies, experiences, testimonials, projects };
